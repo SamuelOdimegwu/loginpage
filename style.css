@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    background: radial-gradient(azure, #3A6E69);
+}
+
+.container {
+    box-shadow: 8px 6px 10px rgb(14, 78, 78), -5px -4px 10px rgb(152, 201, 201);
+    position: fixed;
+    background-color: azure;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border: none;
+    height: 500px;
+    width: 400px;
+    border-radius: 20px;
+    padding: 20px;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+#logo {
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+::placeholder {
+    color: darkblue;
+}
+
+.sub-container {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.sb-container {
+    text-align: center;
+    margin: 10px auto;
+}
+
+.inputs {
+    margin: 40px auto;
+}
+
+img {
+    width: 70px;
+}
+
+input {
+    font: bolder;
+    font-style: italic;
+    text-align: center;
+    background: none;
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid #09103E;
+}
+
+input:hover {
+    border: 1px solid black;
+    border-radius: 50px;
+    box-shadow: inset 10px 10px 5px rgb(14, 78, 78);
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+input:focus,
+button:focus {
+    outline: none;
+}
+
+button {
+    box-shadow: 8px 6px 10px rgb(14, 78, 78), -5px -4px 10px rgb(152, 201, 201);
+    background: linear-gradient(90deg, #04041C, #09103E);
+    color: #FFBF80;
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+button:hover {
+    background-color: #3A6E69;
+}
+
+button:active {
+    box-shadow: none;
+}
+
+a {
+    text-decoration: none;
+}

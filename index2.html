@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up page</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="sb-container" id="logo">
+            <div class="logo">
+                <img src="user.png" alt="user">
+            </div>
+        </div>
+        <div class="sb-container">
+            <div class="inputs"><input type="text" placeholder="Username"></div>
+            <div class="inputs"><input type="email" placeholder="Enter a valid Email"></div>
+            <div class="inputs"><input type="password" placeholder="Input a Password (alphanumeric)" id="inpt1"></div>
+            <div class="inputs"><input type="password" placeholder="Input Password Again" id="inpt2"></div>
+        </div>
+        <div class="sb-container">
+            <div class="buttons"><button type="submit" id="btn2">Sign Up</button></div>
+        </div>
+        <div class="para">
+            <p>Go back to <a href="index.html">Sign In</a> page</p>
+        </div>
+
+    </div>
+</body>
+<script>
+    pword1 = document.getElementById("inpt1");
+    pword2 = document.getElementById("inpt2");
+    signUp = document.getElementById("btn2");
+
+    signUp.onclick = function() {
+        if (pword1.innertext == pword2.innertext) {
+            alert("cool")
+        } else {
+            alert("not cool")
+        }
+    }
+</script>
+
+</html>
